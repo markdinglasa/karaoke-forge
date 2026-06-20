@@ -1,0 +1,48 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/karaoke-app/node_modules
+/karaoke-app/.pnp
+/karaoke-app.pnp.*
+/karaoke-app.yarn/*
+/karaoke-app!.yarn/patches
+/karaoke-app!.yarn/plugins
+/karaoke-app!.yarn/releases
+/karaoke-app!.yarn/versions
+/karaoke-app/.next
+/sync_service/venv
+
+# testing
+/karaoke-app/coverage
+
+# next.js
+/karaoke-app/.next/
+/karaoke-app/out/
+
+# production
+/karaoke-app/build
+
+# misc
+/karaoke-app/.DS_Store
+/karaoke-app/*.pem
+
+# debug
+/karaoke-app/npm-debug.log*
+/karaoke-app/yarn-debug.log*
+/karaoke-app/yarn-error.log*
+/karaoke-app/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+/karaoke-app/.env*
+
+# vercel
+/karaoke-app/.vercel
+
+# typescript
+*.tsbuildinfo
+/karaoke-app/next-env.d.ts
+
+
+# steering
+/.agents
+AGENTS.md
