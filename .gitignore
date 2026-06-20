@@ -3,12 +3,12 @@
 # dependencies
 /karaoke-app/node_modules
 /karaoke-app/.pnp
-/karaoke-app.pnp.*
-/karaoke-app.yarn/*
-/karaoke-app!.yarn/patches
-/karaoke-app!.yarn/plugins
-/karaoke-app!.yarn/releases
-/karaoke-app!.yarn/versions
+/karaoke-app/.pnp.*
+/karaoke-app/.yarn/*
+/karaoke-app/!.yarn/patches
+/karaoke-app/!.yarn/plugins
+/karaoke-app/!.yarn/releases
+/karaoke-app/!.yarn/versions
 /karaoke-app/.next
 /sync_service/venv
 
