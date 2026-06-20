@@ -35,7 +35,7 @@ export async function POST(req: NextRequest) {
     );
 
     // Call Python microservice's transcribe endpoint
-    const response = await fetch(`${BASE_URL}/transscribe`, {
+    const response = await fetch(`${BASE_URL}/transcribe`, {
       method: "POST",
       body: formData,
     });
