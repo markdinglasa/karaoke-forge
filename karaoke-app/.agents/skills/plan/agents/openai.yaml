@@ -1,0 +1,7 @@
+interface:
+  display_name: "Planner"
+  short_description: "Expert planning specialist for complex features and refactoring. Use PROACTIVELY when users request feature implementation, architectural changes, or complex refactoring."
+  brand_color: "#EC4899"
+  default_prompt: "Run Planner"
+policy:
+  allow_implicit_invocation: true
